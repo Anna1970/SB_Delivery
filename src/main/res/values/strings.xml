@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">SB Delivery</string>
+
+    <string name="main_title">Главная</string>
+    <string name="main_menu">Меню</string>
+    <string name="main_favorites">Избранное</string>
+    <string name="main_cart">Корзина</string>
+    <string name="main_profile">Профиль</string>
+    <string name="main_orders">Заказы</string>
+    <string name="main_notifications">Уведомления</string>
+    <string name="main_about">О приложении</string>
+    <string name="main_drawer_open">Открыть</string>
+    <string name="main_drawer_close">Закрыть</string>
+    <string name="main_see_all">См. все</string>
+    <string name="main_recommend">Рекомендуем</string>
+    <string name="main_best">Лучшее</string>
+    <string name="main_popular">Популярное</string>
+
+    <string name="profile_entry">Вход</string>
+    <string name="profile_login">Войти</string>
+    <string name="profile_registration">Регистрация</string>
+    <string name="profile_sign_up">Зарегистрироваться</string>
+
+    <string name="dish_add_to_cart">Добавить в корзину</string>
+    <string name="dish_sale">АКЦИЯ</string>
+
+    <string name="reviews_header">Отзывы</string>
+    <string name="reviews_add_comment">Добавить отзыв</string>
+
+    <string name="cart_total">Итого</string>
+    <string name="cart_order">Оформить заказ</string>
+    <string name="cart_promo_apply">Применить</string>
+
+</resources>

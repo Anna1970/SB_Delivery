@@ -1,0 +1,48 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="ThemeSBDelivery" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/color_primary</item>
+        <item name="colorAccent">@color/color_accent_orange</item>
+
+        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:navigationBarColor">@color/black</item>
+        <item name="android:windowBackground">@drawable/background_sb</item>
+    </style>
+
+    <style name="Toolbar" parent="Widget.MaterialComponents.Toolbar.Primary">
+            <item name="titleTextColor">?attr/colorOnPrimary</item>
+            <item name="contentInsetStartWithNavigation">0dp</item>
+            <item name="android:textColorSecondary">?attr/colorOnPrimary</item>
+    </style>
+
+
+    <style name="SplashTheme" parent="ThemeSBDelivery">
+
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:fitsSystemWindows">true</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@drawable/launch_screen</item>
+    </style>
+
+    <style name="menu_category_item">
+        <item name="background">@color/color_item_background</item>
+        <item name="android:layout_marginLeft">@dimen/margin_medium</item>
+        <item name="android:layout_marginTop">@dimen/margin_top_menu_item</item>
+        <item name="android:textSize">@dimen/text_size_medium</item>
+        <item name="color">@color/color_accent_orange</item>
+        <item name="android:layout_width">@dimen/menu_item_width</item>
+        <item name="android:layout_height">@dimen/menu_item_height</item>
+    </style>
+
+    <style name="page_title">
+        <item name="android:textSize">@dimen/text_size_small</item>
+        <item name="android:textColor">#FF6F14</item>
+    </style>
+
+</resources>
